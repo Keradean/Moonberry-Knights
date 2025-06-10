@@ -10,6 +10,18 @@ public class Player : MonoBehaviour
 
     public PlayerStats Stats => stats; // Public property to access PlayerStats
 
+    private PlayerAnimations animations; // Reference to PlayerAnimations for handling animations
+
+    private void Awake()
+    {
+        animations = GetComponent<PlayerAnimations>(); // Get the PlayerAnimations component attached to this GameObject
+    }
+    public void ResetStats()
+    {
+        stats.ResetStats(); // Call the ResetStats method from PlayerStats to reset player stats
+        animations.ResetStats(); // Reset Animation
+    }
+
 
 
 

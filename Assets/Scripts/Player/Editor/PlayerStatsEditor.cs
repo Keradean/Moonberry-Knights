@@ -12,7 +12,7 @@ public class PlayerStatsEditor : Editor
         if (GUILayout.Button("Reset Stats"))// Create a button in the inspector
         {
             StatsTarget.ResetStats(); // Call the ResetStats method when the button is clicked
-            EditorUtility.SetDirty(StatsTarget); // Mark the target as dirty to save changes
+            EditorUtility.SetDirty(StatsTarget); // Mark the target as dirty to ensure changes are saved
         }
 
     }
