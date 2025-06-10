@@ -23,15 +23,15 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
-        
+        UpdatePlayerUI(); // Call the method to update the player UI elements
     }
 
-    private void updatePlayerUI()
+    private void UpdatePlayerUI()
     {
         levelTMP.text = $"Level {stats.Level}"; // Update the level text with the player's level
-        healthTMP.text = $"Level {stats.Health} / {stats.MaxHealth}"; // Update the health text with the player's current and maximum health 
-        manaTMP.text = $"Level {stats.Mana} / {stats.MaxMana}"; // Update the mana text with the player's current and maximum mana
-        expTMP.text = $"Level {stats.CurrentExp} / {stats.NextLevelExp}"; // Update the experience text with the player's current and next level experience points 
+        healthTMP.text = $"{stats.Health} / {stats.MaxHealth}"; // Update the health text with the player's current and maximum health 
+        manaTMP.text = $"{stats.Mana} / {stats.MaxMana}"; // Update the mana text with the player's current and maximum mana
+        expTMP.text = $"{stats.CurrentExp} / {stats.NextLevelExp}"; // Update the experience text with the player's current and next level experience points 
     }
 
 
