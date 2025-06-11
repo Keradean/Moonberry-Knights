@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0c62121c993f548b7acf102005fd84, type: 3}
+  m_Name: ItemExtra_Apple
+  m_EditorClassIdentifier: 
+  ID: ItemApple
+  Name: Apple
+  Icon: {fileID: -491033899, guid: 87d75f1813b53444bb10ac02b47bedaf, type: 3}
+  Description: An appel a day keeps the doctor away
+  ItemType: 2
+  IsConsumable: 1
+  isStackable: 1
+  MaxStack: 10
+  Quantity: 0
