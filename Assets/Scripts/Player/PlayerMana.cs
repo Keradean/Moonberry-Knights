@@ -12,17 +12,15 @@ public class PlayerMana : MonoBehaviour
         if (stats.Mana >= amount)
         {
             stats.Mana = Mathf.Max(stats.Mana -= amount, 0f); // Deduct mana but ensure it doesn't go below zero
-
+            CurrentMana = stats.Mana; // Update CurrentMana to reflect the new mana value
+        }
 
         }
 
     }
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.M)) // For testing purposes, press 'L' to use mana
+    public bool CanRecoverMana()
         {
-            UseMana(5f); // Call UseMana with a test amount of 5
-        }
+        return stats.Mana >0 && stats.Mana < stats.MaxMana; // Check if mana can be recovered
     }
 
 }
