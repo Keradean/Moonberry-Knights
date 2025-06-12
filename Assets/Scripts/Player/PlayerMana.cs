@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+/*using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMana : MonoBehaviour
@@ -12,15 +11,27 @@ public class PlayerMana : MonoBehaviour
 
     private void Start()
     {
+
         ResetMana(); // Reset mana at the start of the game
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.M)) // For testing purposes, press 'L' to use mana
+
+        if (stats.Mana >= amount)
         {
-            UseMana(5f); // Call UseMana with a test amount of 5
+            stats.Mana = Mathf.Max(stats.Mana -= amount, 0f); // Deduct mana but ensure it doesn't go below zero
+            CurrentMana = stats.Mana; // Update CurrentMana to reflect the new mana value
         }
+
+        }
+
+    }
+    public bool CanRecoverMana()
+
+        {
+        return stats.Mana >0 && stats.Mana < stats.MaxMana; // Check if mana can be recovered
     }
 
     public void UseMana(float amount)
@@ -47,4 +58,4 @@ public class PlayerMana : MonoBehaviour
     {
         CurrentMana = stats.MaxMana; // Reset CurrentMana to maximum mana
     }
-}
+}*/

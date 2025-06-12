@@ -3,18 +3,13 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager : Singleton<GameManager>
 {
-    public static GameManager Instance; // Singleton instance of GameManager
     internal object PlayerHealth;
     [SerializeField] private Player player;
 
     public Player Player => player; // Public property to access the player instance
 
-    public void Awake()
-    {
-        Instance = this; // Set the singleton instance
-    }
 
     private void Update()
     {

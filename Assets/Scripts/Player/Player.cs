@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
 
     public PlayerStats Stats => stats; // Public property to access PlayerStats
 
-    public PlayerMana PlayerMana { get; private set; } // Property to access PlayerMana, which is initialized in Awake
+    //public PlayerMana PlayerMana { get; private set; } // Property to access PlayerMana, which is initialized in Awake
     public PlayerHealth PlayerHealth { get; private set; } // Property to access PlayerHealth, which is initialized in Awake
 
     private PlayerAnimations animations; // Reference to PlayerAnimations for handling animations
@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        PlayerMana = GetComponent<PlayerMana>(); // Get the PlayerMana component attached to this GameObject
+        //PlayerMana = GetComponent<PlayerMana>(); // Get the PlayerMana component attached to this GameObject
         PlayerHealth = GetComponent<PlayerHealth>(); // Get the PlayerHealth component attached to this GameObject
         animations = GetComponent<PlayerAnimations>(); // Get the PlayerAnimations component attached to this GameObject
     }

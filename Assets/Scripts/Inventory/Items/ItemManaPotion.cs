@@ -8,7 +8,7 @@ public class ItemManaPotion : InventoryItem
     [Header("Config")]
     public float ManaValue; // The amount of health this potion restores
 
-    public override bool UseItem()
+   /* public override bool UseItem()
     {
         if (GameManager.Instance.Player.PlayerMana.CanRecoverMana())
         {
@@ -16,7 +16,7 @@ public class ItemManaPotion : InventoryItem
             return true;
         }
         return false;
-    }
+    }*/
 
 
 }
