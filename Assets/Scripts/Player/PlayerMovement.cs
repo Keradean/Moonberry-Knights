@@ -62,8 +62,6 @@ public class PlayerMovement : MonoBehaviour
         playerAnimations.SetMovingAnimation(true); // Set the moving animation to true if there is movement input
         playerAnimations.SetMoveAnimation(moveDirection); // Set the move animation based on the input direction
 
-
-
     }
     
     private void OnEnable()

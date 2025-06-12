@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public enum ItemType // Enum to define different types of items in the inventory
@@ -33,7 +31,7 @@ public class InventoryItem : ScriptableObject
     public InventoryItem CopyItem()
     {
         InventoryItem instance = Instantiate(this); // Create a copy of the item
-        return instance; 
+        return instance;
     }
 
     public virtual bool UseItem()
