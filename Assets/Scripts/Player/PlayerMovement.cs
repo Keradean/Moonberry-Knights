@@ -26,17 +26,6 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void FixedUpdate()
     {
         Move(); // Call the Move method to handle player movement in FixedUpdate for consistent physics updates
@@ -51,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void ReadMovement()
-        {
+    {
         // Read the movement input from the PlayerActions script
         moveDirection = actions.Movement.Move.ReadValue<Vector2>().normalized; // Normalize the input vector to ensure consistent speed in all directions //wenn du Quer läufst, läufst du schneller und deswegen muss dieser .normalized werden das der wert wieder auf 1 springt.
         if (moveDirection == Vector2.zero)

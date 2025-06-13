@@ -1,7 +1,7 @@
-/*using System.Collections.Generic;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMana : MonoBehaviour
+/*public class PlayerMana : MonoBehaviour
 {
     [Header("Config")]
     [SerializeField] private PlayerStats stats; // Reference to PlayerStats script
@@ -11,7 +11,6 @@ public class PlayerMana : MonoBehaviour
 
     private void Start()
     {
-
         ResetMana(); // Reset mana at the start of the game
     }
 
@@ -30,8 +29,8 @@ public class PlayerMana : MonoBehaviour
     }
     public bool CanRecoverMana()
 
-        {
-        return stats.Mana >0 && stats.Mana < stats.MaxMana; // Check if mana can be recovered
+    {
+        return stats.Mana > 0 && stats.Mana < stats.MaxMana; // Check if mana can be recovered
     }
 
     public void UseMana(float amount)

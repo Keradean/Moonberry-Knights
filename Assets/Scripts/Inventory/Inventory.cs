@@ -10,9 +10,9 @@ public class Inventory : Singleton<Inventory>
 
     [Header("Testing")]
     public InventoryItem testItem; // Test item for demonstration purposes
+    public int InventorySize => inventorySize; // Public property to access the inventory size
+    public InventoryItem[] InventoryItems => inventoryItems; // Public property to access the inventory items
 
-    // Public property to get the maximum inventory size
-    public int InventorySize => inventorySize;
 
     // Initializes the inventory array with the specified size
     public void Start()
@@ -74,6 +74,22 @@ public class Inventory : Singleton<Inventory>
 
     }
 
+    public void RemoveItem(int index)
+    {
+        if (inventoryItems[index] == null) return; // Check if the item exists in the inventory
+        inventoryItems[index].RemoveItem(); // Remove the item from the inventory
+        inventoryItems[index] = null; // Set the slot to null
+        InventoryUI.Instance.DrawItem(null, index); // Update the UI to reflect the change
+
+    }
+
+    /* public void EquipItem()
+     {
+         if (inventoryItems[index] ==null) return; // Check if the item exists in the inventory
+         if (inventoryItems[index].ItemType != ItemType.Weapon) return; // Check if the item is a weapon
+         inventoryItems[Index].EquipItem(); // Call the EquipItem method on the item 
+     }
+     */
     // Finds a free slot and adds the item there
     private void AddItemFreeSlot(InventoryItem item, int quantity)
     {
