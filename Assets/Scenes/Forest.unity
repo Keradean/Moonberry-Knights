@@ -14337,7 +14337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &831359807
 RectTransform:
   m_ObjectHideFlags: 0
@@ -42934,6 +42934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09602c47cbd38154da2e1ce955744da4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameContent: {fileID: 11400000, guid: 1df5e43d9c75adb46a9ac621e3e6c91a, type: 2}
   inventorySize: 12
   inventoryItems: []
   testItem: {fileID: 11400000, guid: a4b5598d01ceed243b19c5e0ea234aa1, type: 2}

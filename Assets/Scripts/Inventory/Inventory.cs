@@ -1,10 +1,13 @@
+using BayatGames.SaveGameFree; // Importing the SaveGame namespace for saving functionality
 using System.Collections.Generic;
+using System.Net;
 using UnityEngine;
 
 // The Inventory class manages the player's inventory as a Singleton.
 public class Inventory : Singleton<Inventory>
 {
     [Header("Config")]
+    [SerializeField] private GameContent gameContent; // Reference to the GameContent scriptable object containing available items
     [SerializeField] private int inventorySize; // Maximum number of items in the inventory
     [SerializeField] private InventoryItem[] inventoryItems; // Array to hold the items in the inventory
 
@@ -13,12 +16,13 @@ public class Inventory : Singleton<Inventory>
     public int InventorySize => inventorySize; // Public property to access the inventory size
     public InventoryItem[] InventoryItems => inventoryItems; // Public property to access the inventory items
 
+    private readonly string INVENTORY_KEY_DATA = "MY_INVENTORY"; // Key for saving the inventory data
 
     // Initializes the inventory array with the specified size
     public void Start()
     {
         inventoryItems = new InventoryItem[inventorySize];
-        VerifyItemsForDraw(); // Verify items for drawing in the UI
+        LoadInventory();
     }
 
     // For testing: Adds a test item to the inventory when 'H' is pressed
@@ -49,6 +53,7 @@ public class Inventory : Singleton<Inventory>
                         AddItem(item, dif); // Add the remaining amount recursively
                     }
                     InventoryUI.Instance.DrawItem(inventoryItems[index], index);
+                    SaveInventory(); // Save the inventory state after adding the item
                     return;
                 }
             }
@@ -60,8 +65,9 @@ public class Inventory : Singleton<Inventory>
         if (remainingAmount > 0)
         {
             AddItem(item, remainingAmount);
-
         }
+
+        SaveInventory(); // Save the inventory state after adding the item
     }
 
     public void UseItem(int index)
@@ -72,6 +78,8 @@ public class Inventory : Singleton<Inventory>
             DecreaseItemStack(index); // Decrease the stack of the item 
         }
 
+        SaveInventory(); // Save the inventory state after using an item
+
     }
 
     public void RemoveItem(int index)
@@ -81,6 +89,7 @@ public class Inventory : Singleton<Inventory>
         inventoryItems[index] = null; // Set the slot to null
         InventoryUI.Instance.DrawItem(null, index); // Update the UI to reflect the change
 
+        SaveInventory(); // Save the inventory state after removing an item
     }
 
     /* public void EquipItem()
@@ -142,5 +151,69 @@ public class Inventory : Singleton<Inventory>
                 InventoryUI.Instance.DrawItem(null, i); // If the slot is empty, draw it as null
             }
         }
+    }
+
+    private InventoryItem ItemExistsInGameContent(string itemID)
+    {
+        for (int i = 0; i < inventorySize; i++)
+        {
+            if (gameContent.GameItems[i].ID == itemID)
+            {
+                return gameContent.GameItems[i]; // Return the item if it exists in the game content
+            }
+        }
+        return null; // Return null if the item does not exist in the game content
+    }
+
+    private void LoadInventory()
+    {
+        if (SaveGame.Exists(INVENTORY_KEY_DATA))
+        {
+            InventoryData loadData = SaveGame.Load<InventoryData>(INVENTORY_KEY_DATA); // Load the inventory data from the save file
+            for (int i = 0; i < inventorySize; i++)
+            {
+                if (loadData.ItemContent[i] == null)
+                {
+                    inventoryItems[i] = null; // If the slot is empty, set it to null
+                }
+                else
+                {
+                    InventoryItem item = ItemExistsInGameContent(loadData.ItemContent[i]); // Check if the item exists in the game content
+                    if (item != null)
+                    {
+                        inventoryItems[i] = item.CopyItem(); // Create a copy of the item
+                        inventoryItems[i].Quantity = loadData.ItemQuantity[i]; // Set the quantity of the item
+                        InventoryUI.Instance.DrawItem(inventoryItems[i], i); // Draw the item in the UI
+                    }
+                    else
+                    {
+                        inventoryItems[i] = null;
+                    }
+                }
+            }
+        }
+    }
+
+    private void SaveInventory()
+    {
+        InventoryData saveData = new InventoryData(); // Create a new InventoryData object to save the inventory state
+        saveData.ItemContent = new string[inventorySize]; // Initialize the ItemContent array
+        saveData.ItemQuantity = new int[inventorySize]; // Initialize the ItemQuantity array
+        for (int i = 0; i < inventorySize; i++)
+        {
+            if (inventoryItems[i] == null) 
+            {
+                saveData.ItemContent[i] = null;
+                saveData.ItemQuantity[i] = 0;
+            }
+
+            else
+            {
+                saveData.ItemContent[i] = inventoryItems[i].ID; 
+                saveData.ItemQuantity[i] = inventoryItems[i].Quantity;    
+            }
+        }
+
+        SaveGame.Save(INVENTORY_KEY_DATA, saveData); // Save the inventory data using the SaveGame system
     }
 }
