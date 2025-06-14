@@ -21,15 +21,16 @@ public class ActionPatrol : FSMAction
     {
         timer -= Time.deltaTime; // every time that timer is less or equal tham zero, we will change the destination
         Vector3 moveDirection = (movePosition - transform.position).normalized; // Calculate the direction to the new position
-        Vector3 movement = moveDirection * speed * Time.deltaTime; // Calculate the movement vector based on speed and time
+        Vector3 movement = moveDirection * (speed * Time.deltaTime); // Calculate the movement vector based on speed and time
         if (Vector3.Distance(transform.position, movePosition) >= 0.5f)
         {
             transform.Translate(movement); // Move towards the new position
         }
 
-        if (timer >= 0f) 
+        if (timer <= 0f) 
         {
-            timer = patrolTime; // Reset the timer if it's still running
+            GetNewDestination(); // Get a new destination when the timer reaches zero
+            timer = patrolTime; // Reset the timer to patrolTime
         }
     }
 
@@ -45,7 +46,7 @@ public class ActionPatrol : FSMAction
         if (moveRange != Vector2.zero)
         {
             Gizmos.color = Color.blue; // Set the color for the gizmo
-            Gizmos.DrawWireCube(transform.position, new Vector3(moveRange.x * 2, moveRange.y * 2, 1)); // Draw a wireframe cube to visualize the patrol area
+            Gizmos.DrawWireCube(transform.position, moveRange *2f); // Draw a wireframe cube to visualize the patrol area
             Gizmos.DrawLine(transform.position, movePosition); // Draw a line from the current position to the move position
         }
     }
