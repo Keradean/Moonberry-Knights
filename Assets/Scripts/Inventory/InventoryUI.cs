@@ -35,7 +35,7 @@ public class InventoryUI : Singleton<InventoryUI>
             InventorySlot slot = Instantiate(slotPrefab, container); // Instantiate the slot prefab in the container
             slot.Index = i; // Set the index of the slot
             slotsList.Add(slot); // Add the slot to the list
-
+            slot.ShowSlotInformation(false); // Slot-UI direkt nach dem Erstellen leeren
         }
     }
 
@@ -80,8 +80,14 @@ public class InventoryUI : Singleton<InventoryUI>
     public void OpenCloseInventory()
     {
         inventoryPanel.SetActive(!inventoryPanel.activeSelf); // Toggle the inventory panel visibility
-        if (inventoryPanel.activeSelf == false) // If the inventory is closed
+
+        if (inventoryPanel.activeSelf)
         {
+            Time.timeScale = 0f; // Pause the game when inventory is open
+        }
+        else
+        {
+            Time.timeScale = 1f; // Resume the game when inventory is closed
             descriptionPanel.SetActive(false); // Hide the description panel when the inventory is closed
             CurrentSlot = null; // Clear the current slot when the inventory is closed
         }

@@ -42,26 +42,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Water
-    uniqueID: 3162061609
-    locked: 0
   - name: Ground
-    uniqueID: 3055354527
+    uniqueID: 700483317
     locked: 0
   - name: WalkInFront
-    uniqueID: 2178922221
-    locked: 0
-  - name: LevelSwitch
-    uniqueID: 2785808895
+    uniqueID: 949514859
     locked: 0
   - name: Collision
-    uniqueID: 1533722225
+    uniqueID: 1599018013
     locked: 0
-  - name: DecoFront
-    uniqueID: 3293576489
-    locked: 0
-  - name: Prob
-    uniqueID: 3965036375
+  - name: isTrigger
+    uniqueID: 4179005267
     locked: 0
   - name: Enemy
     uniqueID: 4153577847
@@ -70,10 +61,10 @@ TagManager:
     uniqueID: 15053217
     locked: 0
   - name: WalkBehind
-    uniqueID: 3403960795
+    uniqueID: 561162707
     locked: 0
-  - name: DecoBehind
-    uniqueID: 1877252581
+  - name: Decor
+    uniqueID: 3746454315
     locked: 0
   - name: UI
     uniqueID: 385856357

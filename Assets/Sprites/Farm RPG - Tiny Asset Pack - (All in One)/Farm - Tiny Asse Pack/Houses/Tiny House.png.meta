@@ -97,27 +97,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tiny House_0
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 295
-        width: 72
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bff6fd7f1fdfb547858c8722fb04e2d
-      internalID: -412740157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Tiny House_1
       rect:
         serializedVersion: 2
@@ -126,7 +105,7 @@ TextureImporter:
         width: 72
         height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,57 +118,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiny House_2
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 290
-        width: 68
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f318a44f1be8924496a1f88f0dc1e18
-      internalID: -1796077526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_3
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 338
-        width: 13
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a302a9f42bfcb4a44997fc11cc4a9097
-      internalID: -727096312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Tiny House_4
       rect:
         serializedVersion: 2
-        x: 282
-        y: 338
-        width: 13
-        height: 30
+        x: 526
+        y: 349
+        width: 20
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,36 +139,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiny House_5
-      rect:
-        serializedVersion: 2
-        x: 251
-        y: 375
-        width: 11
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 619b3831c45d3a149a7722c64008bd89
-      internalID: -850915037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Tiny House_6
       rect:
         serializedVersion: 2
-        x: 241
-        y: 321
-        width: 14
-        height: 14
+        x: 656
+        y: 272
+        width: 128
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +163,12 @@ TextureImporter:
       name: Tiny House_7
       rect:
         serializedVersion: 2
-        x: 257
-        y: 321
-        width: 14
-        height: 14
+        x: 928
+        y: 272
+        width: 176
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,12 +184,12 @@ TextureImporter:
       name: Tiny House_8
       rect:
         serializedVersion: 2
-        x: 273
-        y: 321
-        width: 14
-        height: 14
+        x: 250
+        y: 338
+        width: 13
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -289,12 +205,12 @@ TextureImporter:
       name: Tiny House_9
       rect:
         serializedVersion: 2
-        x: 289
-        y: 321
-        width: 14
-        height: 14
+        x: 282
+        y: 338
+        width: 13
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -310,12 +226,12 @@ TextureImporter:
       name: Tiny House_10
       rect:
         serializedVersion: 2
-        x: 305
-        y: 321
-        width: 14
-        height: 14
+        x: 464
+        y: 365
+        width: 32
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -331,12 +247,12 @@ TextureImporter:
       name: Tiny House_11
       rect:
         serializedVersion: 2
-        x: 321
-        y: 321
-        width: 14
-        height: 14
+        x: 166
+        y: 290
+        width: 68
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -352,12 +268,12 @@ TextureImporter:
       name: Tiny House_12
       rect:
         serializedVersion: 2
-        x: 337
+        x: 241
         y: 321
         width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -373,12 +289,12 @@ TextureImporter:
       name: Tiny House_13
       rect:
         serializedVersion: 2
-        x: 353
+        x: 257
         y: 321
         width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -394,12 +310,12 @@ TextureImporter:
       name: Tiny House_14
       rect:
         serializedVersion: 2
-        x: 369
+        x: 273
         y: 321
         width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -415,12 +331,12 @@ TextureImporter:
       name: Tiny House_15
       rect:
         serializedVersion: 2
-        x: 304
-        y: 358
-        width: 16
-        height: 23
+        x: 289
+        y: 321
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -436,12 +352,12 @@ TextureImporter:
       name: Tiny House_16
       rect:
         serializedVersion: 2
-        x: 320
-        y: 358
-        width: 16
-        height: 23
+        x: 305
+        y: 321
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -457,12 +373,12 @@ TextureImporter:
       name: Tiny House_17
       rect:
         serializedVersion: 2
-        x: 336
-        y: 358
-        width: 16
-        height: 23
+        x: 321
+        y: 321
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -478,12 +394,12 @@ TextureImporter:
       name: Tiny House_18
       rect:
         serializedVersion: 2
-        x: 352
-        y: 358
-        width: 16
-        height: 23
+        x: 337
+        y: 321
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -499,12 +415,12 @@ TextureImporter:
       name: Tiny House_19
       rect:
         serializedVersion: 2
-        x: 368
-        y: 358
-        width: 16
-        height: 23
+        x: 353
+        y: 321
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -520,12 +436,12 @@ TextureImporter:
       name: Tiny House_20
       rect:
         serializedVersion: 2
-        x: 384
-        y: 358
-        width: 16
-        height: 23
+        x: 369
+        y: 321
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -541,12 +457,12 @@ TextureImporter:
       name: Tiny House_21
       rect:
         serializedVersion: 2
-        x: 400
-        y: 358
-        width: 16
-        height: 23
+        x: 385
+        y: 331
+        width: 14
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -562,12 +478,12 @@ TextureImporter:
       name: Tiny House_22
       rect:
         serializedVersion: 2
-        x: 416
-        y: 358
-        width: 16
-        height: 23
+        x: 401
+        y: 331
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -583,12 +499,12 @@ TextureImporter:
       name: Tiny House_23
       rect:
         serializedVersion: 2
-        x: 432
-        y: 358
-        width: 16
-        height: 23
+        x: 417
+        y: 331
+        width: 14
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -604,12 +520,12 @@ TextureImporter:
       name: Tiny House_24
       rect:
         serializedVersion: 2
-        x: 464
-        y: 365
-        width: 16
-        height: 10
+        x: 433
+        y: 331
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -625,12 +541,12 @@ TextureImporter:
       name: Tiny House_25
       rect:
         serializedVersion: 2
-        x: 480
-        y: 366
-        width: 16
-        height: 9
+        x: 449
+        y: 331
+        width: 14
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -646,12 +562,12 @@ TextureImporter:
       name: Tiny House_26
       rect:
         serializedVersion: 2
-        x: 526
-        y: 349
-        width: 19
-        height: 32
+        x: 465
+        y: 331
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -667,12 +583,12 @@ TextureImporter:
       name: Tiny House_27
       rect:
         serializedVersion: 2
-        x: 574
-        y: 357
-        width: 20
-        height: 21
+        x: 481
+        y: 331
+        width: 14
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -688,12 +604,12 @@ TextureImporter:
       name: Tiny House_28
       rect:
         serializedVersion: 2
-        x: 574
+        x: 497
         y: 331
-        width: 20
-        height: 15
+        width: 14
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -709,12 +625,12 @@ TextureImporter:
       name: Tiny House_29
       rect:
         serializedVersion: 2
-        x: 656
-        y: 272
-        width: 128
-        height: 109
+        x: 574
+        y: 331
+        width: 20
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -730,12 +646,12 @@ TextureImporter:
       name: Tiny House_30
       rect:
         serializedVersion: 2
-        x: 784
-        y: 273
-        width: 128
-        height: 108
+        x: 241
+        y: 304
+        width: 14
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -751,12 +667,12 @@ TextureImporter:
       name: Tiny House_31
       rect:
         serializedVersion: 2
-        x: 928
-        y: 272
-        width: 176
-        height: 109
+        x: 257
+        y: 304
+        width: 14
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -772,12 +688,12 @@ TextureImporter:
       name: Tiny House_32
       rect:
         serializedVersion: 2
-        x: 656
-        y: 193
-        width: 79
-        height: 62
+        x: 273
+        y: 304
+        width: 14
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -793,12 +709,12 @@ TextureImporter:
       name: Tiny House_33
       rect:
         serializedVersion: 2
-        x: 659
-        y: 177
-        width: 55
-        height: 15
+        x: 289
+        y: 304
+        width: 14
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -811,7 +727,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiny House_34
+      name: Tiny House_57
       rect:
         serializedVersion: 2
         x: 774
@@ -819,490 +735,7 @@ TextureImporter:
         width: 55
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b467f33c181a9444eb5228982eaedc42
-      internalID: -848885814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_35
-      rect:
-        serializedVersion: 2
-        x: 749
-        y: 193
-        width: 83
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 833250ae3e5804941a6921c5f8c8a47a
-      internalID: -1094085175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_36
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 193
-        width: 80
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0aea3d0783510bc4baaaa542efa8ec34
-      internalID: 872411913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_37
-      rect:
-        serializedVersion: 2
-        x: 925
-        y: 193
-        width: 83
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91c5485e8d262994e9669315e02e6601
-      internalID: 521352117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_38
-      rect:
-        serializedVersion: 2
-        x: 1008
-        y: 193
-        width: 80
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44e85051d3db9214fb09438e1ed14785
-      internalID: -1117796125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_39
-      rect:
-        serializedVersion: 2
-        x: 1101
-        y: 193
-        width: 83
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae13323da829a90499a9341ceb2dc8f9
-      internalID: 1137082019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_40
-      rect:
-        serializedVersion: 2
-        x: 385
-        y: 331
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 219956a3defea7c40ac0f6463d6a6d38
-      internalID: -1789612692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_41
-      rect:
-        serializedVersion: 2
-        x: 401
-        y: 331
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac08790c3335dd54b8f7684c4da4f2f9
-      internalID: 1404402410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_42
-      rect:
-        serializedVersion: 2
-        x: 417
-        y: 331
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3e7938e83c2b6144b3505cd6d7d299e
-      internalID: -220220235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_43
-      rect:
-        serializedVersion: 2
-        x: 433
-        y: 331
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9af18e1a2e5df1446978973232bcf6c3
-      internalID: 2090226778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_44
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 331
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89b2e8e62d23851438bad0c6beb13cb4
-      internalID: -1773753338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_45
-      rect:
-        serializedVersion: 2
-        x: 465
-        y: 331
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2872d30f3a77fa4385b6ae523ca6c4c
-      internalID: 1015246700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_46
-      rect:
-        serializedVersion: 2
-        x: 481
-        y: 331
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0959615b1c23f24ca1ba69ee878930d
-      internalID: -909400657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_47
-      rect:
-        serializedVersion: 2
-        x: 497
-        y: 331
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65097c5d03a9d5643965b5122a39bcd8
-      internalID: 1271682403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_48
-      rect:
-        serializedVersion: 2
-        x: 574
-        y: 293
-        width: 20
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b214b9d23cd35674e8caca3affdbc11d
-      internalID: 46353845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_49
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 304
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 472e225dd9514224e96cdf1c53a59404
-      internalID: -622561718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_50
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 304
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0de8e8fd8b756c84e87452294bdaf085
-      internalID: -2132914054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_51
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 304
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f728f6f80a1cfa429990a9b137478fe
-      internalID: -564662489
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_52
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 304
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e67ec9089c8cfbf438a3666f17dd0e97
-      internalID: -699093535
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_53
-      rect:
-        serializedVersion: 2
-        x: 305
-        y: 304
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36c4ab508db7e42429c5c22774c86f65
-      internalID: 543109130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_54
-      rect:
-        serializedVersion: 2
-        x: 321
-        y: 304
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e272988c50c44114aa90112735bebc91
-      internalID: -483412822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_55
-      rect:
-        serializedVersion: 2
-        x: 385
-        y: 299
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8dbaaa0674337a44abd023d13502547
-      internalID: -1322511300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_56
-      rect:
-        serializedVersion: 2
-        x: 401
-        y: 299
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39db89aaae37b064fb125f794666407b
-      internalID: 909214954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_57
-      rect:
-        serializedVersion: 2
-        x: 417
-        y: 299
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1318,12 +751,12 @@ TextureImporter:
       name: Tiny House_58
       rect:
         serializedVersion: 2
-        x: 433
-        y: 299
-        width: 13
-        height: 14
+        x: 693
+        y: 143
+        width: 6
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1339,12 +772,12 @@ TextureImporter:
       name: Tiny House_59
       rect:
         serializedVersion: 2
-        x: 456
-        y: 297
-        width: 16
-        height: 15
+        x: 737
+        y: 170
+        width: 82
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1360,12 +793,12 @@ TextureImporter:
       name: Tiny House_60
       rect:
         serializedVersion: 2
-        x: 488
-        y: 297
-        width: 16
-        height: 15
+        x: 829
+        y: 170
+        width: 82
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1381,12 +814,12 @@ TextureImporter:
       name: Tiny House_61
       rect:
         serializedVersion: 2
-        x: 693
-        y: 143
-        width: 6
-        height: 29
+        x: 662
+        y: 116
+        width: 28
+        height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1402,12 +835,12 @@ TextureImporter:
       name: Tiny House_62
       rect:
         serializedVersion: 2
-        x: 662
+        x: 702
         y: 116
         width: 28
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1423,12 +856,12 @@ TextureImporter:
       name: Tiny House_63
       rect:
         serializedVersion: 2
-        x: 702
-        y: 116
-        width: 28
-        height: 53
+        x: 738
+        y: 140
+        width: 80
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1444,12 +877,12 @@ TextureImporter:
       name: Tiny House_64
       rect:
         serializedVersion: 2
-        x: 0
-        y: 136
-        width: 48
-        height: 48
+        x: 830
+        y: 140
+        width: 80
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1465,12 +898,12 @@ TextureImporter:
       name: Tiny House_65
       rect:
         serializedVersion: 2
-        x: 48
-        y: 136
+        x: 0
+        y: 72
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1486,12 +919,12 @@ TextureImporter:
       name: Tiny House_66
       rect:
         serializedVersion: 2
-        x: 96
-        y: 136
-        width: 48
-        height: 48
+        x: 548
+        y: 39
+        width: 72
+        height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1507,12 +940,12 @@ TextureImporter:
       name: Tiny House_67
       rect:
         serializedVersion: 2
-        x: 144
-        y: 136
-        width: 48
-        height: 48
+        x: 9
+        y: 33
+        width: 49
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1528,12 +961,12 @@ TextureImporter:
       name: Tiny House_68
       rect:
         serializedVersion: 2
-        x: 192
-        y: 136
-        width: 48
-        height: 48
+        x: 70
+        y: 33
+        width: 49
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1549,12 +982,12 @@ TextureImporter:
       name: Tiny House_69
       rect:
         serializedVersion: 2
-        x: 240
-        y: 136
-        width: 48
-        height: 48
+        x: 137
+        y: 33
+        width: 49
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1570,12 +1003,12 @@ TextureImporter:
       name: Tiny House_70
       rect:
         serializedVersion: 2
-        x: 288
-        y: 136
-        width: 48
-        height: 48
+        x: 197
+        y: 33
+        width: 50
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1591,12 +1024,12 @@ TextureImporter:
       name: Tiny House_71
       rect:
         serializedVersion: 2
-        x: 336
-        y: 136
-        width: 48
-        height: 48
+        x: 265
+        y: 33
+        width: 49
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1612,12 +1045,12 @@ TextureImporter:
       name: Tiny House_72
       rect:
         serializedVersion: 2
-        x: 384
-        y: 136
-        width: 48
-        height: 48
+        x: 326
+        y: 33
+        width: 49
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1633,12 +1066,12 @@ TextureImporter:
       name: Tiny House_73
       rect:
         serializedVersion: 2
-        x: 432
-        y: 136
-        width: 48
-        height: 48
+        x: 393
+        y: 33
+        width: 49
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1654,12 +1087,12 @@ TextureImporter:
       name: Tiny House_74
       rect:
         serializedVersion: 2
-        x: 480
-        y: 136
-        width: 48
-        height: 48
+        x: 454
+        y: 33
+        width: 49
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1675,12 +1108,12 @@ TextureImporter:
       name: Tiny House_75
       rect:
         serializedVersion: 2
-        x: 528
-        y: 136
-        width: 48
-        height: 48
+        x: 640
+        y: 16
+        width: 176
+        height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1696,12 +1129,12 @@ TextureImporter:
       name: Tiny House_76
       rect:
         serializedVersion: 2
-        x: 576
-        y: 136
-        width: 48
-        height: 48
+        x: 832
+        y: 16
+        width: 128
+        height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1717,12 +1150,12 @@ TextureImporter:
       name: Tiny House_77
       rect:
         serializedVersion: 2
-        x: 737
-        y: 170
-        width: 82
-        height: 4
+        x: 9
+        y: 1
+        width: 49
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1738,12 +1171,12 @@ TextureImporter:
       name: Tiny House_78
       rect:
         serializedVersion: 2
-        x: 829
-        y: 170
-        width: 82
-        height: 4
+        x: 69
+        y: 1
+        width: 50
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1759,12 +1192,12 @@ TextureImporter:
       name: Tiny House_79
       rect:
         serializedVersion: 2
-        x: 830
-        y: 140
-        width: 80
-        height: 28
+        x: 137
+        y: 1
+        width: 49
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1780,12 +1213,12 @@ TextureImporter:
       name: Tiny House_80
       rect:
         serializedVersion: 2
-        x: 738
-        y: 140
-        width: 80
-        height: 28
+        x: 197
+        y: 1
+        width: 50
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1801,12 +1234,12 @@ TextureImporter:
       name: Tiny House_81
       rect:
         serializedVersion: 2
-        x: 640
-        y: 16
-        width: 176
-        height: 52
+        x: 1106
+        y: 18
+        width: 28
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1819,22 +1252,589 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiny House_82
+      name: Tiny House_0
       rect:
         serializedVersion: 2
-        x: 832
-        y: 16
-        width: 128
-        height: 52
+        x: 4
+        y: 295
+        width: 72
+        height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca8df7157f5fc704291ed061c2f291ab
-      internalID: 1420850069
+      spriteID: c3d26fd7879876d43827e8abcde5a0a4
+      internalID: -412740157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_2
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 375
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fab813ce458b045998c5228ffff27e
+      internalID: -1796077526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 358
+        width: 144
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f4554d20ccc1e49b8cdabdc6351737
+      internalID: -727096312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_5
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 357
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11ceffacebb62048a3b664d02620831
+      internalID: -850915037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_34
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 304
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628ca2fc1e84fbc46a57187958ffd367
+      internalID: -848885814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_35
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 304
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69bce0b25637e2429b9a466ae75c1d2
+      internalID: -1094085175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_36
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 299
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1781d65078da043b54156a7046e427
+      internalID: 872411913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_37
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 299
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea8c5b78e4e1f1429be9e9a1683e19d
+      internalID: 521352117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_38
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 299
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39d9d13525675a43aa38f33401a4dc4
+      internalID: -1117796125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_39
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 299
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31544d7fbc2c4524d9450e5334b7ce30
+      internalID: 1137082019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_40
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 297
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decbbedfabaf624458504572bd110a90
+      internalID: -1789612692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_41
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 297
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aee5fd016f31fe4da715aa2719a1943
+      internalID: 1404402410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_42
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 293
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c60da3eb8a4b1b41b386cd034c230a0
+      internalID: -220220235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_43
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 199
+        width: 72
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945d7a0ae7409374e9f5021284702157
+      internalID: 2090226778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_44
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 199
+        width: 72
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f695737af991ba945ba9cb1e3836a153
+      internalID: -1773753338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_45
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 224
+        width: 72
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e08832ceb5b2784ea601b89efcc64d6
+      internalID: 1015246700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_46
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 224
+        width: 72
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0403be21b485ea443a95cddb662a9289
+      internalID: -909400657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_47
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 199
+        width: 72
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2236f715f372b42b7aa82ded6915ec
+      internalID: 1271682403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_48
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 199
+        width: 72
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263600585166f0145a26c8f4d780bddd
+      internalID: 46353845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_49
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 199
+        width: 72
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5c1a17a5ca14d4ab59757507f84077
+      internalID: -622561718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_50
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 199
+        width: 72
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf140087d00ef5f46a6112f564e7449d
+      internalID: -2132914054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_51
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 193
+        width: 80
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097957bd0aaf52541940bd98aacf3795
+      internalID: -564662489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_52
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 193
+        width: 83
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdf26b05a50ff54dbfeb737b75d043c
+      internalID: -699093535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_53
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 193
+        width: 82
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1f1f857bfd97e4a9970cd6e79ce92a
+      internalID: 543109130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_54
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 193
+        width: 83
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6777f94774044bd43a2be1d19355ee98
+      internalID: -483412822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d4d8b870676734388d60d9c15548ac
+      internalID: -1322511300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_56
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 177
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b22290703f598f4d9291724aedb1082
+      internalID: 909214954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny House_82
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0eb94ded04fca44ca282ac11e98ae1e
+      internalID: -815405197
       vertices: []
       indices: 
       edges: []
@@ -1843,19 +1843,19 @@ TextureImporter:
       name: Tiny House_83
       rect:
         serializedVersion: 2
-        x: 960
-        y: 16
-        width: 128
-        height: 52
+        x: 96
+        y: 136
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 360f61c29e43a4f48be1b0cb27adebc9
-      internalID: 1586600484
+      spriteID: 180f7944ef9e4d447975942ee51cf30e
+      internalID: 1412381726
       vertices: []
       indices: 
       edges: []
@@ -1864,19 +1864,19 @@ TextureImporter:
       name: Tiny House_84
       rect:
         serializedVersion: 2
-        x: 1106
-        y: 18
-        width: 28
-        height: 13
+        x: 144
+        y: 136
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 072616363992c924ebbb801d7abbb73a
-      internalID: 748181122
+      spriteID: 3faf2e0251a3b434eb7ea43d3793bc57
+      internalID: 494814055
       vertices: []
       indices: 
       edges: []
@@ -1885,19 +1885,19 @@ TextureImporter:
       name: Tiny House_85
       rect:
         serializedVersion: 2
-        x: 548
-        y: 39
-        width: 72
-        height: 86
+        x: 192
+        y: 136
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c61eafe7cdb620c44962713658037519
-      internalID: -1008357215
+      spriteID: 4f24e543cbec7d244be563b276fce2d4
+      internalID: 4035771
       vertices: []
       indices: 
       edges: []
@@ -1906,19 +1906,19 @@ TextureImporter:
       name: Tiny House_86
       rect:
         serializedVersion: 2
-        x: 0
-        y: 72
+        x: 240
+        y: 136
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d629f4b944829184d87db7d6333a086f
-      internalID: 1524968871
+      spriteID: c5f4190e1dbaeae48ac67700cc27e240
+      internalID: -1317900047
       vertices: []
       indices: 
       edges: []
@@ -1927,19 +1927,19 @@ TextureImporter:
       name: Tiny House_87
       rect:
         serializedVersion: 2
-        x: 48
-        y: 72
+        x: 288
+        y: 136
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60703915c3975af40954bdb04cda51b9
-      internalID: -779441578
+      spriteID: e31087b0e370a1d458de77747f3273a6
+      internalID: -1657133842
       vertices: []
       indices: 
       edges: []
@@ -1948,19 +1948,19 @@ TextureImporter:
       name: Tiny House_88
       rect:
         serializedVersion: 2
-        x: 96
-        y: 72
+        x: 336
+        y: 136
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf1f5426cc93a5d4e8f1110f72ae6b56
-      internalID: -943567087
+      spriteID: fda114a78ca10cd4bb17ef72d424366c
+      internalID: -892910503
       vertices: []
       indices: 
       edges: []
@@ -1969,19 +1969,19 @@ TextureImporter:
       name: Tiny House_89
       rect:
         serializedVersion: 2
-        x: 144
-        y: 72
+        x: 384
+        y: 136
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a464f3d689ea69d43abdfc8239ac1286
-      internalID: -1855555730
+      spriteID: d3f8bbdde8e8e3642a2fca51a8f900c3
+      internalID: 405106303
       vertices: []
       indices: 
       edges: []
@@ -1990,19 +1990,19 @@ TextureImporter:
       name: Tiny House_90
       rect:
         serializedVersion: 2
-        x: 192
-        y: 72
+        x: 432
+        y: 136
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab05a152d201ea743bb48501be72505e
-      internalID: 1146311819
+      spriteID: 4cdbd648d1e3c9547948d18404c83ee6
+      internalID: -144130150
       vertices: []
       indices: 
       edges: []
@@ -2011,19 +2011,19 @@ TextureImporter:
       name: Tiny House_91
       rect:
         serializedVersion: 2
-        x: 240
-        y: 72
+        x: 480
+        y: 136
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a19e5960180e0a14faa651ea1838b9f4
-      internalID: -2115760583
+      spriteID: 3addf09abd27248449271cd5e02be89b
+      internalID: -1792076138
       vertices: []
       indices: 
       edges: []
@@ -2032,19 +2032,19 @@ TextureImporter:
       name: Tiny House_92
       rect:
         serializedVersion: 2
-        x: 288
-        y: 72
+        x: 528
+        y: 136
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e5985fbd3e3f2045ae93d24b0dc5c3b
-      internalID: -998246879
+      spriteID: 9b48d58107a3af741b868ad8e6b9fce1
+      internalID: 351144014
       vertices: []
       indices: 
       edges: []
@@ -2053,19 +2053,19 @@ TextureImporter:
       name: Tiny House_93
       rect:
         serializedVersion: 2
-        x: 336
-        y: 72
+        x: 576
+        y: 136
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40fef1ef7760e9943ba93d2c14f1f174
-      internalID: -1375040251
+      spriteID: e439576b74480734880f87eba254d3a1
+      internalID: 64224731
       vertices: []
       indices: 
       edges: []
@@ -2074,19 +2074,19 @@ TextureImporter:
       name: Tiny House_94
       rect:
         serializedVersion: 2
-        x: 384
-        y: 72
+        x: 48
+        y: 73
         width: 48
-        height: 48
+        height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce60c749bcb12d04c85419e17f488c08
-      internalID: -248766356
+      spriteID: f1858125579bf3f4ca6402446752953b
+      internalID: -1556625428
       vertices: []
       indices: 
       edges: []
@@ -2095,19 +2095,19 @@ TextureImporter:
       name: Tiny House_95
       rect:
         serializedVersion: 2
-        x: 432
-        y: 72
+        x: 96
+        y: 73
         width: 48
-        height: 48
+        height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b84634797a010b94395efcccbfe16c0c
-      internalID: -1284852060
+      spriteID: f2081e449f1fe6343ba7619939c0baed
+      internalID: 1525705598
       vertices: []
       indices: 
       edges: []
@@ -2116,19 +2116,19 @@ TextureImporter:
       name: Tiny House_96
       rect:
         serializedVersion: 2
-        x: 480
+        x: 144
         y: 72
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62384d73b44ed4d4da3b65ce6745d05a
-      internalID: -136243030
+      spriteID: c8b9347e59359714cae3420cbd715690
+      internalID: -680411554
       vertices: []
       indices: 
       edges: []
@@ -2137,19 +2137,19 @@ TextureImporter:
       name: Tiny House_97
       rect:
         serializedVersion: 2
-        x: 393
-        y: 33
-        width: 49
-        height: 25
+        x: 192
+        y: 73
+        width: 48
+        height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 447322747b0a09841a63851420587dc1
-      internalID: -1818107380
+      spriteID: 3caa9df6bf77823478a98b7c72ed8ddb
+      internalID: 381386184
       vertices: []
       indices: 
       edges: []
@@ -2158,19 +2158,19 @@ TextureImporter:
       name: Tiny House_98
       rect:
         serializedVersion: 2
-        x: 454
-        y: 33
-        width: 49
-        height: 25
+        x: 240
+        y: 73
+        width: 48
+        height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15b30265669f9a14d851d15f49f2be1a
-      internalID: -432216930
+      spriteID: 55519eccc7c6b754f9b009fa35920086
+      internalID: 1529743245
       vertices: []
       indices: 
       edges: []
@@ -2179,19 +2179,19 @@ TextureImporter:
       name: Tiny House_99
       rect:
         serializedVersion: 2
-        x: 326
-        y: 33
-        width: 49
-        height: 25
+        x: 288
+        y: 73
+        width: 48
+        height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fefce15ffe7ed0a458b4ab1f53268ce8
-      internalID: 2091084848
+      spriteID: 82c5a52d79d623b49a030e9a0713080a
+      internalID: -1681721470
       vertices: []
       indices: 
       edges: []
@@ -2200,19 +2200,19 @@ TextureImporter:
       name: Tiny House_100
       rect:
         serializedVersion: 2
-        x: 265
-        y: 33
-        width: 49
-        height: 25
+        x: 336
+        y: 72
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22ccf6f4894215045ab5e0b9f0192407
-      internalID: 388580892
+      spriteID: b5bf477d5650fd24db00f27322dc5724
+      internalID: 113470177
       vertices: []
       indices: 
       edges: []
@@ -2221,19 +2221,19 @@ TextureImporter:
       name: Tiny House_101
       rect:
         serializedVersion: 2
-        x: 197
-        y: 33
-        width: 50
-        height: 25
+        x: 384
+        y: 72
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85ab1acfb6554004c941a65ca8ceb955
-      internalID: 539434213
+      spriteID: 5b4783a5e9d697a4587aba87bcaee631
+      internalID: 671208165
       vertices: []
       indices: 
       edges: []
@@ -2242,19 +2242,19 @@ TextureImporter:
       name: Tiny House_102
       rect:
         serializedVersion: 2
-        x: 197
-        y: 1
-        width: 50
-        height: 25
+        x: 432
+        y: 72
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59898f0e6ace5db4a9317ca0594528a5
-      internalID: 1447280136
+      spriteID: a3aaea7a1fa349146ba03ef5aaab8503
+      internalID: -51608585
       vertices: []
       indices: 
       edges: []
@@ -2263,19 +2263,19 @@ TextureImporter:
       name: Tiny House_103
       rect:
         serializedVersion: 2
-        x: 137
-        y: 33
-        width: 49
-        height: 25
+        x: 480
+        y: 72
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c6dabec5f8c6cc4788d064f1ede80ad
-      internalID: -1568235275
+      spriteID: fe607f405e7a1aa488c254bbbdc201fb
+      internalID: -1676790635
       vertices: []
       indices: 
       edges: []
@@ -2284,19 +2284,19 @@ TextureImporter:
       name: Tiny House_104
       rect:
         serializedVersion: 2
-        x: 137
-        y: 1
-        width: 49
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1121
+        y: 74
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.49999237, y: 0.47692013}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c87e80e266f0224db9f6733742844bb
-      internalID: -26086389
+      spriteID: 2aff8c478cedfc540983ad104831ec26
+      internalID: -1485982058
       vertices: []
       indices: 
       edges: []
@@ -2305,10 +2305,10 @@ TextureImporter:
       name: Tiny House_105
       rect:
         serializedVersion: 2
-        x: 69
-        y: 1
-        width: 50
-        height: 25
+        x: 1007
+        y: 193
+        width: 81
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2316,8 +2316,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cc7134024b8a8c46a6abbda0c1dd560
-      internalID: -1660275916
+      spriteID: 6f7a21301cb5cf243850365711607355
+      internalID: 1204319457
       vertices: []
       indices: 
       edges: []
@@ -2326,10 +2326,10 @@ TextureImporter:
       name: Tiny House_106
       rect:
         serializedVersion: 2
-        x: 70
-        y: 33
-        width: 49
-        height: 25
+        x: 832
+        y: 193
+        width: 80
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2337,218 +2337,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8c31d8b78898d042bd92d8cb8db5014
-      internalID: -1132254840
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_107
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 1
-        width: 49
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89d11f5cd08ef8d4190534128236396e
-      internalID: 352298632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_108
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 33
-        width: 49
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13a64b750fe1ccb4bb270e069fcdaedb
-      internalID: 244104083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_109
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 199
-        width: 72
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a9a45447f089144aa90ad7779f15ff3
-      internalID: 661984052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_110
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 199
-        width: 73
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0bbb0fe6955ad1b4d80700ebc2f1ec35
-      internalID: 905706644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_111
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 224
-        width: 72
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed77569aa20a4524aa0a0192bdc10a5c
-      internalID: -44122875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_112
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 224
-        width: 72
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 966f40d7966644546b0e44d6f7e9ddd4
-      internalID: 1799186573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_113
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 199
-        width: 72
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66af39a377207454cad08be3446a3464
-      internalID: 863325521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_114
-      rect:
-        serializedVersion: 2
-        x: 404
-        y: 199
-        width: 72
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cb86d7eb57ae0d429f963b5a82dd4ec
-      internalID: -1348965472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_115
-      rect:
-        serializedVersion: 2
-        x: 484
-        y: 199
-        width: 72
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9722ba6934dfb2b438a84bfbdb19ae15
-      internalID: -657407372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiny House_116
-      rect:
-        serializedVersion: 2
-        x: 564
-        y: 199
-        width: 72
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 408dde279e039644389a338eb165020c
-      internalID: 734899433
+      spriteID: bbe38981a6166244a81e59735994e6cc
+      internalID: 1904139722
       vertices: []
       indices: 
       edges: []
@@ -2567,24 +2357,14 @@ TextureImporter:
       Tiny House_0: -412740157
       Tiny House_1: 1033308810
       Tiny House_10: 531607740
-      Tiny House_100: 388580892
-      Tiny House_101: 539434213
-      Tiny House_102: 1447280136
-      Tiny House_103: -1568235275
-      Tiny House_104: -26086389
-      Tiny House_105: -1660275916
-      Tiny House_106: -1132254840
-      Tiny House_107: 352298632
-      Tiny House_108: 244104083
-      Tiny House_109: 661984052
+      Tiny House_100: 113470177
+      Tiny House_101: 671208165
+      Tiny House_102: -51608585
+      Tiny House_103: -1676790635
+      Tiny House_104: -1485982058
+      Tiny House_105: 1204319457
+      Tiny House_106: 1904139722
       Tiny House_11: 1938516576
-      Tiny House_110: 905706644
-      Tiny House_111: -44122875
-      Tiny House_112: 1799186573
-      Tiny House_113: 863325521
-      Tiny House_114: -1348965472
-      Tiny House_115: -657407372
-      Tiny House_116: 734899433
       Tiny House_12: -1511568744
       Tiny House_13: 668211914
       Tiny House_14: -238932016
@@ -2662,25 +2442,25 @@ TextureImporter:
       Tiny House_8: 1774940751
       Tiny House_80: -172863735
       Tiny House_81: -808481712
-      Tiny House_82: 1420850069
-      Tiny House_83: 1586600484
-      Tiny House_84: 748181122
-      Tiny House_85: -1008357215
-      Tiny House_86: 1524968871
-      Tiny House_87: -779441578
-      Tiny House_88: -943567087
-      Tiny House_89: -1855555730
+      Tiny House_82: -815405197
+      Tiny House_83: 1412381726
+      Tiny House_84: 494814055
+      Tiny House_85: 4035771
+      Tiny House_86: -1317900047
+      Tiny House_87: -1657133842
+      Tiny House_88: -892910503
+      Tiny House_89: 405106303
       Tiny House_9: -784791350
-      Tiny House_90: 1146311819
-      Tiny House_91: -2115760583
-      Tiny House_92: -998246879
-      Tiny House_93: -1375040251
-      Tiny House_94: -248766356
-      Tiny House_95: -1284852060
-      Tiny House_96: -136243030
-      Tiny House_97: -1818107380
-      Tiny House_98: -432216930
-      Tiny House_99: 2091084848
+      Tiny House_90: -144130150
+      Tiny House_91: -1792076138
+      Tiny House_92: 351144014
+      Tiny House_93: 64224731
+      Tiny House_94: -1556625428
+      Tiny House_95: 1525705598
+      Tiny House_96: -680411554
+      Tiny House_97: 381386184
+      Tiny House_98: 1529743245
+      Tiny House_99: -1681721470
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
