@@ -46,7 +46,7 @@ public class ActionPatrol : FSMAction
         if (moveRange != Vector2.zero)
         {
             Gizmos.color = Color.blue; // Set the color for the gizmo
-            Gizmos.DrawWireCube(transform.position, moveRange *2f); // Draw a wireframe cube to visualize the patrol area
+            Gizmos.DrawWireCube(transform.position, moveRange * 2f); // Draw a wireframe cube to visualize the patrol area
             Gizmos.DrawLine(transform.position, movePosition); // Draw a line from the current position to the move position
         }
     }

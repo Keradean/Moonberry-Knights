@@ -91,6 +91,7 @@ public class InventoryUI : Singleton<InventoryUI>
             descriptionPanel.SetActive(false); // Hide the description panel when the inventory is closed
             CurrentSlot = null; // Clear the current slot when the inventory is closed
         }
+
     }
 
     private void OnEnable()

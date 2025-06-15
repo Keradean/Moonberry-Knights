@@ -15,7 +15,7 @@ MonoBehaviour:
   ID: ItemApple
   Name: Apple
   Icon: {fileID: -491033899, guid: 87d75f1813b53444bb10ac02b47bedaf, type: 3}
-  Description: An appel a day keeps the doctor away
+  Description: An apple a day keeps the doctor away
   ItemType: 2
   IsConsumable: 1
   isStackable: 1

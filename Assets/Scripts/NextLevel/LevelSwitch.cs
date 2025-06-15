@@ -13,7 +13,7 @@ public class LevelMove_Ref : MonoBehaviour
 
         // Could use other.GetComponent<Player>() to see if the game object has a Player component
         // Tags work too. Maybe some players have different script components?
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
             // Player entered, so move level
             print("Switching Scene to " + sceneBuildIndex);

@@ -4,9 +4,16 @@ public class EnemyBrain : MonoBehaviour
 {
     [SerializeField] private string initState; // Initial state ID to start the FSM // PatrolState, AttackState, etc.
     [SerializeField] private FSMState[] states; // Array of all possible states in the FSM 
+    [SerializeField] private Sprite closedSprite;   // Das normale Kisten-Sprite
+    [SerializeField] private Sprite openedSprite;   // Das geöffnete Kisten-Sprite
+    private SpriteRenderer spriteRenderer;
 
     public FSMState CurrentState { get; set; }
 
+    private void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
     private void Start()
     {
@@ -36,5 +43,11 @@ public class EnemyBrain : MonoBehaviour
             }
         }
         return null; // Ensure all code paths return a value | Copilot suggested this, but it was necessary in this context
+    }
+
+    public void SetSelected(bool selected)
+    {
+        if (spriteRenderer == null) return;
+        spriteRenderer.sprite = selected ? openedSprite : closedSprite;
     }
 }
