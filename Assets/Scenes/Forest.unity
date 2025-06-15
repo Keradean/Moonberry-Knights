@@ -47435,7 +47435,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.size
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[0].Item
@@ -47470,12 +47470,28 @@ PrefabInstance:
       value: Apple
       objectReference: {fileID: 0}
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 30dd7cbce58b40640b0cfd9b1ae96bc6, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Name
+      value: Bow
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 30dd7cbce58b40640b0cfd9b1ae96bc6, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Name
+      value: Bow
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[0].Quantity
-      value: 17
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[1].Quantity
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[2].Quantity
@@ -47486,8 +47502,16 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Quantity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Quantity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[0].LootChance
-      value: 85
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[1].LootChance
@@ -47495,11 +47519,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[2].LootChance
-      value: 100
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[3].LootChance
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].LootChance
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].LootChance
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: m_LocalPosition.x
@@ -47544,6 +47576,10 @@ PrefabInstance:
     - target: {fileID: 6315256554180999759, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: m_Name
       value: Treasure Chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 6315256554180999759, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: closedSprite

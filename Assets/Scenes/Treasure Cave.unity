@@ -478,11 +478,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161687547}
   m_CullTransparentMesh: 1
---- !u!4 &176354336 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-  m_PrefabInstance: {fileID: 1708747304}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &194439680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5250563472771209720, guid: c4af0e6bdf381574aa926eed52f619a7, type: 3}
@@ -2254,148 +2249,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290455466}
   m_CullTransparentMesh: 1
---- !u!4 &298693290 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-  m_PrefabInstance: {fileID: 1991353552}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &306569502
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 672653620}
-    m_Modifications:
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[0].Item
-      value: 
-      objectReference: {fileID: 11400000, guid: 21ca110bcca06c048a91515382f60436, type: 2}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[0].Name
-      value: Small Mana  Pottion
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[1].Item
-      value: 
-      objectReference: {fileID: 11400000, guid: a4b5598d01ceed243b19c5e0ea234aa1, type: 2}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[1].Name
-      value: Small Health  Pottion
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[2].Item
-      value: 
-      objectReference: {fileID: 11400000, guid: dc86c7f53bc9e634a8eac4809d80e1d3, type: 2}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[2].Name
-      value: coin
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[3].Item
-      value: 
-      objectReference: {fileID: 11400000, guid: ac44a78c925622a41826d6ec58994137, type: 2}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[3].Name
-      value: Apple
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[0].Quantity
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[1].Quantity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[2].Quantity
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[3].Quantity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[0].LootChance
-      value: 85
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[1].LootChance
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[2].LootChance
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[3].LootChance
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.2576923
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.7311687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.1521978
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6315256554180999759, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_Name
-      value: Treasure Chest (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: closedSprite
-      value: 
-      objectReference: {fileID: -81449828, guid: 63910745e9ccf194cbbf07c5c13356c0, type: 3}
-    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: openedSprite
-      value: 
-      objectReference: {fileID: -77937274, guid: 63910745e9ccf194cbbf07c5c13356c0, type: 3}
-    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: states.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
 --- !u!1 &326582332
 GameObject:
   m_ObjectHideFlags: 0
@@ -11956,6 +11809,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531550312}
   m_CullTransparentMesh: 1
+--- !u!4 &532292699 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+  m_PrefabInstance: {fileID: 751072134}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &549668578 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
@@ -12728,6 +12586,215 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659284068}
   m_CullTransparentMesh: 1
+--- !u!1001 &664193305
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 672653620}
+    m_Modifications:
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[0].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 21ca110bcca06c048a91515382f60436, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[0].Name
+      value: Small Mana  Pottion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[1].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: a4b5598d01ceed243b19c5e0ea234aa1, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[1].Name
+      value: Small Health  Pottion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[2].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: dc86c7f53bc9e634a8eac4809d80e1d3, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[2].Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[3].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: ac44a78c925622a41826d6ec58994137, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[3].Name
+      value: Apple
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 083c76f7674f00044989afc02c39a073, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Name
+      value: Blade-ish
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a72b6b38d6df6b41a6d3f1d11f4897d, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Name
+      value: Stick of Destiny
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 30dd7cbce58b40640b0cfd9b1ae96bc6, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].Name
+      value: Twiggy Shot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: be17ebbab677a5d4380b6548a49a5e27, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].Name
+      value: Chestplate of mild Protection
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[8].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 30dd7cbce58b40640b0cfd9b1ae96bc6, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[8].Name
+      value: Twiggy Shot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[0].Quantity
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[1].Quantity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[2].Quantity
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[3].Quantity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Quantity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[8].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[0].LootChance
+      value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[1].LootChance
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[2].LootChance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[3].LootChance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].LootChance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].LootChance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].LootChance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.2576923
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1521978
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6315256554180999759, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_Name
+      value: Treasure Chest (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: closedSprite
+      value: 
+      objectReference: {fileID: -81449828, guid: 63910745e9ccf194cbbf07c5c13356c0, type: 3}
+    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: openedSprite
+      value: 
+      objectReference: {fileID: -77937274, guid: 63910745e9ccf194cbbf07c5c13356c0, type: 3}
+    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
 --- !u!1 &672653619
 GameObject:
   m_ObjectHideFlags: 0
@@ -12758,12 +12825,217 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 549668578}
-  - {fileID: 777343963}
-  - {fileID: 298693290}
-  - {fileID: 176354336}
-  - {fileID: 1277039782}
+  - {fileID: 1888853749}
+  - {fileID: 532292699}
+  - {fileID: 1714036017}
+  - {fileID: 2016598024}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &696324963
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 672653620}
+    m_Modifications:
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[0].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 21ca110bcca06c048a91515382f60436, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[0].Name
+      value: Small Mana  Pottion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[1].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: a4b5598d01ceed243b19c5e0ea234aa1, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[1].Name
+      value: Small Health  Pottion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[2].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: dc86c7f53bc9e634a8eac4809d80e1d3, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[2].Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[3].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: ac44a78c925622a41826d6ec58994137, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[3].Name
+      value: Apple
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 083c76f7674f00044989afc02c39a073, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Name
+      value: Blade-ish
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a72b6b38d6df6b41a6d3f1d11f4897d, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Name
+      value: Stick of Destiny
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 30dd7cbce58b40640b0cfd9b1ae96bc6, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].Name
+      value: Twiggy Shot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: be17ebbab677a5d4380b6548a49a5e27, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].Name
+      value: Chestplate of mild Protection
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[8].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 30dd7cbce58b40640b0cfd9b1ae96bc6, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[8].Name
+      value: Twiggy Shot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[0].Quantity
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[1].Quantity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[2].Quantity
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[3].Quantity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Quantity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[8].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[0].LootChance
+      value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[1].LootChance
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[2].LootChance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[3].LootChance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].LootChance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].LootChance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1521978
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6315256554180999759, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_Name
+      value: Treasure Chest (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: closedSprite
+      value: 
+      objectReference: {fileID: -81449828, guid: 63910745e9ccf194cbbf07c5c13356c0, type: 3}
+    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: openedSprite
+      value: 
+      objectReference: {fileID: -77937274, guid: 63910745e9ccf194cbbf07c5c13356c0, type: 3}
+    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
 --- !u!1 &723581244
 GameObject:
   m_ObjectHideFlags: 0
@@ -12961,7 +13233,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736683838}
   m_CullTransparentMesh: 1
---- !u!1001 &741049560
+--- !u!1001 &751072134
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -12971,7 +13243,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.size
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[0].Item
@@ -13006,6 +13278,46 @@ PrefabInstance:
       value: Apple
       objectReference: {fileID: 0}
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 083c76f7674f00044989afc02c39a073, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Name
+      value: Blade-ish
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a72b6b38d6df6b41a6d3f1d11f4897d, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Name
+      value: Stick of Destiny
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 30dd7cbce58b40640b0cfd9b1ae96bc6, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].Name
+      value: Twiggy Shot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: be17ebbab677a5d4380b6548a49a5e27, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].Name
+      value: Chestplate of mild Protection
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[8].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 30dd7cbce58b40640b0cfd9b1ae96bc6, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[8].Name
+      value: Twiggy Shot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[0].Quantity
       value: 17
       objectReference: {fileID: 0}
@@ -13020,6 +13332,26 @@ PrefabInstance:
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[3].Quantity
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Quantity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[8].Quantity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[0].LootChance
@@ -13037,13 +13369,21 @@ PrefabInstance:
       propertyPath: lootItem.Array.data[3].LootChance
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].LootChance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].LootChance
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.482307
+      value: 13.75
       objectReference: {fileID: 0}
     - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.081168175
+      value: 0.21883202
       objectReference: {fileID: 0}
     - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13079,7 +13419,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6315256554180999759, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: m_Name
-      value: Treasure Chest (4)
+      value: Treasure Chest (2)
       objectReference: {fileID: 0}
     - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: closedSprite
@@ -13198,11 +13538,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759101907}
   m_CullTransparentMesh: 1
---- !u!4 &777343963 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-  m_PrefabInstance: {fileID: 306569502}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &778523984
 GameObject:
   m_ObjectHideFlags: 0
@@ -15079,11 +15414,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266335180}
   m_CullTransparentMesh: 1
---- !u!4 &1277039782 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-  m_PrefabInstance: {fileID: 741049560}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1282143760
 GameObject:
   m_ObjectHideFlags: 0
@@ -17542,7 +17872,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.size
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[0].Item
@@ -17577,6 +17907,46 @@ PrefabInstance:
       value: Apple
       objectReference: {fileID: 0}
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 083c76f7674f00044989afc02c39a073, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Name
+      value: Blade-ish
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a72b6b38d6df6b41a6d3f1d11f4897d, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Name
+      value: Stick of Destiny
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 30dd7cbce58b40640b0cfd9b1ae96bc6, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].Name
+      value: Twiggy Shot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: be17ebbab677a5d4380b6548a49a5e27, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].Name
+      value: Chestplate of mild Protection
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[8].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 30dd7cbce58b40640b0cfd9b1ae96bc6, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[8].Name
+      value: Twiggy Shot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[0].Quantity
       value: 17
       objectReference: {fileID: 0}
@@ -17593,6 +17963,26 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Quantity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[8].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[0].LootChance
       value: 85
       objectReference: {fileID: 0}
@@ -17606,6 +17996,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
       propertyPath: lootItem.Array.data[3].LootChance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].LootChance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].LootChance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].LootChance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].LootChance
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
@@ -17702,6 +18108,211 @@ Transform:
   - {fileID: 364501860}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1674815051
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 672653620}
+    m_Modifications:
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[0].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 21ca110bcca06c048a91515382f60436, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[0].Name
+      value: Small Mana  Pottion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[1].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: a4b5598d01ceed243b19c5e0ea234aa1, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[1].Name
+      value: Small Health  Pottion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[2].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: dc86c7f53bc9e634a8eac4809d80e1d3, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[2].Name
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[3].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: ac44a78c925622a41826d6ec58994137, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[3].Name
+      value: Apple
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 083c76f7674f00044989afc02c39a073, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Name
+      value: Blade-ish
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a72b6b38d6df6b41a6d3f1d11f4897d, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Name
+      value: Stick of Destiny
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 30dd7cbce58b40640b0cfd9b1ae96bc6, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].Name
+      value: Twiggy Shot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: be17ebbab677a5d4380b6548a49a5e27, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].Name
+      value: Chestplate of mild Protection
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[8].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 30dd7cbce58b40640b0cfd9b1ae96bc6, type: 2}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[8].Name
+      value: Twiggy Shot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[0].Quantity
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[1].Quantity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[2].Quantity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[3].Quantity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].Quantity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[6].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[7].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[8].Quantity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[0].LootChance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[1].LootChance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[2].LootChance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[3].LootChance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[4].LootChance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: lootItem.Array.data[5].LootChance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1521978
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6315256554180999759, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: m_Name
+      value: Treasure Chest (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: closedSprite
+      value: 
+      objectReference: {fileID: -81449828, guid: 63910745e9ccf194cbbf07c5c13356c0, type: 3}
+    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: openedSprite
+      value: 
+      objectReference: {fileID: -77937274, guid: 63910745e9ccf194cbbf07c5c13356c0, type: 3}
+    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+      propertyPath: states.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
 --- !u!1 &1675235686
 GameObject:
   m_ObjectHideFlags: 0
@@ -18091,143 +18702,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704494690}
   m_CullTransparentMesh: 1
---- !u!1001 &1708747304
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 672653620}
-    m_Modifications:
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[0].Item
-      value: 
-      objectReference: {fileID: 11400000, guid: 21ca110bcca06c048a91515382f60436, type: 2}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[0].Name
-      value: Small Mana  Pottion
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[1].Item
-      value: 
-      objectReference: {fileID: 11400000, guid: a4b5598d01ceed243b19c5e0ea234aa1, type: 2}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[1].Name
-      value: Small Health  Pottion
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[2].Item
-      value: 
-      objectReference: {fileID: 11400000, guid: dc86c7f53bc9e634a8eac4809d80e1d3, type: 2}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[2].Name
-      value: coin
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[3].Item
-      value: 
-      objectReference: {fileID: 11400000, guid: ac44a78c925622a41826d6ec58994137, type: 2}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[3].Name
-      value: Apple
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[0].Quantity
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[1].Quantity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[2].Quantity
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[3].Quantity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[0].LootChance
-      value: 85
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[1].LootChance
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[2].LootChance
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[3].LootChance
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 13.482307
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.7311687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.1521978
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6315256554180999759, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_Name
-      value: Treasure Chest (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: closedSprite
-      value: 
-      objectReference: {fileID: -81449828, guid: 63910745e9ccf194cbbf07c5c13356c0, type: 3}
-    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: openedSprite
-      value: 
-      objectReference: {fileID: -77937274, guid: 63910745e9ccf194cbbf07c5c13356c0, type: 3}
-    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: states.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+--- !u!4 &1714036017 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+  m_PrefabInstance: {fileID: 696324963}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1744847150
 GameObject:
   m_ObjectHideFlags: 0
@@ -18725,6 +19204,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1888069495}
   m_CullTransparentMesh: 1
+--- !u!4 &1888853749 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+  m_PrefabInstance: {fileID: 664193305}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1938334051
 GameObject:
   m_ObjectHideFlags: 0
@@ -18777,143 +19261,11 @@ MonoBehaviour:
   healthTMP: {fileID: 1610189203}
   manaTMP: {fileID: 1362193270}
   expTMP: {fileID: 434865934}
---- !u!1001 &1991353552
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 672653620}
-    m_Modifications:
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[0].Item
-      value: 
-      objectReference: {fileID: 11400000, guid: 21ca110bcca06c048a91515382f60436, type: 2}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[0].Name
-      value: Small Mana  Pottion
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[1].Item
-      value: 
-      objectReference: {fileID: 11400000, guid: a4b5598d01ceed243b19c5e0ea234aa1, type: 2}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[1].Name
-      value: Small Health  Pottion
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[2].Item
-      value: 
-      objectReference: {fileID: 11400000, guid: dc86c7f53bc9e634a8eac4809d80e1d3, type: 2}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[2].Name
-      value: coin
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[3].Item
-      value: 
-      objectReference: {fileID: 11400000, guid: ac44a78c925622a41826d6ec58994137, type: 2}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[3].Name
-      value: Apple
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[0].Quantity
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[1].Quantity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[2].Quantity
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[3].Quantity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[0].LootChance
-      value: 85
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[1].LootChance
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[2].LootChance
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1258995324833313934, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: lootItem.Array.data[3].LootChance
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.2223077
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.7311687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.1521978
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6315256554180999759, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: m_Name
-      value: Treasure Chest (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: closedSprite
-      value: 
-      objectReference: {fileID: -81449828, guid: 63910745e9ccf194cbbf07c5c13356c0, type: 3}
-    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: openedSprite
-      value: 
-      objectReference: {fileID: -77937274, guid: 63910745e9ccf194cbbf07c5c13356c0, type: 3}
-    - target: {fileID: 6396508446792964595, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
-      propertyPath: states.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+--- !u!4 &2016598024 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3324836893556674197, guid: 11e4217e5bd7f1a4cbc4719363c0a093, type: 3}
+  m_PrefabInstance: {fileID: 1674815051}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2036320194
 GameObject:
   m_ObjectHideFlags: 0

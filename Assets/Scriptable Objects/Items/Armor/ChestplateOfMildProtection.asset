@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7472980303a332c43ab575ec343fc4fe, type: 3}
-  m_Name: BaseItem
+  m_Name: ChestplateOfMildProtection
   m_EditorClassIdentifier: 
-  ID: 
-  Name: 
-  Icon: {fileID: 0}
-  Description: 
-  ItemType: 0
+  ID: itemArmor
+  Name: Chestplate of Mild Protection
+  Icon: {fileID: 1207312756, guid: d2b4c4733fd5d0b47a37c7ae749a597b, type: 3}
+  Description: "It\u2019s leather. It\u2019s brown. It sorta protects. What more
+    do you want?"
+  ItemType: 1
   IsConsumable: 0
   isStackable: 0
-  MaxStack: 0
+  MaxStack: 1
   Quantity: 0
